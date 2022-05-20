@@ -1,4 +1,4 @@
-import count from "./HeroName.js";
+import { count } from "./HeroName.js";
 
 const comparator = document.getElementById("comparator")
 const fSelect = document.getElementById("f_name")
