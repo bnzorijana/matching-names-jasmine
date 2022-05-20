@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Jasmine</title>
+</head>
+<body>
+    <div style="display: flex; margin-top: 35px; margin-left: 400px">
+        <h1 style="margin-right: 18px">Entrez le nom comparateur: </h1>
+        <input type="text" id="comparator">
+    </div>
+    <div style="display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 20px">
+        <div>
+            <label for="f_name">Choisissez le premier nom: </label>
+            <select name="f_name" id="f_name" class="options">
+                <option value="0">Sélectionner</option>
+            </select>
+        </div>
+        <div>
+            <label for="s_name">Choisissez le deuxième nom: </label>
+            <select name="s_name" id="s_name" class="options">
+                <option value="0">Sélectionner</option>
+            </select>
+        </div>
+    </div>
+    <button id="btn_compare" style="padding: 10px; margin-top: 60px; margin-left: 500px">Comparez les noms</button>
+    <div style="display: flex; flex-direction: column; margin-top: 20px; margin-left: 500px">
+        <div>Compatibilité du premier nom: <span id="result_first"></span>%</div>
+        <div style="margin-top: 10px">Compatibilité du second nom:  <span id="result_second"></span>%</div>
+    </div>
+    <script type="module" src="hero.js"></script>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="HeroName.js"></script>
+    <script type="module" src="compat.js" ></script>
+</body>
+</html>

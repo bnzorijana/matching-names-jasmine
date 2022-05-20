@@ -1,0 +1,27 @@
+{
+  "name": "tdd-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "http-server -o ./index.html -c-1 -p 8081 -e index.html"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "jasmine": "^4.1.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.12",
+    "@babel/node": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.17.12",
+    "http-server": "^14.1.0",
+    "node-fetch": "^3.2.4",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "type": "module",
+  "author": "Bavon",
+  "license": "ISC"
+}
