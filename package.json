@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "jasmine",
-    "start": "http-server -o ./index.html -c-1 -p 8081 -e index.html"
+    "start": "http-server -o index.html -c-1 -p 8081 -e index.html"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.17.12",
@@ -18,7 +18,7 @@
     "@babel/node": "^7.17.10",
     "@babel/plugin-transform-runtime": "^7.17.12",
     "http-server": "^14.1.0",
-    "node-fetch": "^3.2.4",
+    "node-fetch": "^2.6.7",
     "whatwg-fetch": "^3.6.2"
   },
   "type": "module",
